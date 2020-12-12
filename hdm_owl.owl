@@ -1,0 +1,859 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/nail.diker/ontologies/2020/6/hybrid-data-management-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/nail.diker/ontologies/2020/6/hybrid-data-management-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/nail.diker/ontologies/2020/6/hybrid-data-management-ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="hybrid-data-management-ontology" IRI="http://www.semanticweb.org/nail.diker/ontologies/2020/6/hybrid-data-management-ontology#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#AttributeDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#AttributeType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#AttributeValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#BusinessDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Column"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ColumnType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ColumnarDataModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DocumentDataModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#EntityOccurence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#FieldType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignKey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#GrapDatahModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDataModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValuePair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueServerInstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#OntologyModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#PrimaryKey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#RelationalDataModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Row"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#SubTyping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ValueType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#distinguishes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#dominates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#establishesConnectionVia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasCollection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasColumn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDBMS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDataModelOccurence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasTable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isDatabaseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isDependent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOccurenceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isInstanceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#represents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#restricts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForeignIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForeignKey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGeneralizedDataModelOccurenceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGeneralizedForignIdentifierOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttributeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntityName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasIPAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasPassword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasPort"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationshipName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasUsername"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isBasedOnApproach"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#latestVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#officalWebSite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsCollection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsSQL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#CouchDB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Microsoft_SQL_Server"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#MongoDB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Neo4j"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Oracle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Redis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Riak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Sparksee"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#AttributeDomain"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#BusinessDomain"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ColumnarDataModel"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DocumentDataModel"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Field"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignIdentifier"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#GrapDatahModel"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Key"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyAttribute"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDataModel"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#OntologyModel"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#GrapDatahModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#RelationalDataModel"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#CouchDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DocumentDataModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#CouchDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Microsoft_SQL_Server"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#RelationalDataModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Microsoft_SQL_Server"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#MongoDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DocumentDataModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#MongoDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Neo4j"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#GrapDatahModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Neo4j"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Oracle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#RelationalDataModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Oracle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Redis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDataModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Redis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Riak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDataModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Riak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Sparksee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#GrapDatahModel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Sparksee"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsCollection"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#CouchDB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#latestVersion"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Microsoft_SQL_Server"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#officalWebSite"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Microsoft_SQL_Server"/>
+        <Literal>https://www.microsoft.com/en-us/sql-server/sql-server-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsSQL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Microsoft_SQL_Server"/>
+        <Literal>T-SQL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsCollection"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#MongoDB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsSQL"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Oracle"/>
+        <Literal>PL/SQL</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#distinguishes"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#dominates"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#establishesConnectionVia"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttribute"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasCollection"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Database"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasColumn"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDBMS"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDataModelOccurence"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DocumentDataModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntity"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#BusinessDomain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntity"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKey"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDataModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#RelationalDataModel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasTable"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Database"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isDatabaseOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Database"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isDependent"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeTypeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#AttributeType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#EntityOccurence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isInstanceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#represents"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#BusinessDomain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#restricts"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#AttributeType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasForeignIdentifier"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasForeignKey"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGeneralizedDataModelOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGeneralizedForignIdentifierOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignIdentifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#distinguishes"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#dominates"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Relationship"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttribute"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasCollection"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasColumn"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Column"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDBMS"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDataModelOccurence"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Field"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#FieldType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasDocumentConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntity"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKey"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Key"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Key"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueDatabase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValuePair"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasKeyValueConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ValueType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Column"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ColumnType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Database"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Row"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationalConcept"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasTable"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isDatabaseOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isDependent"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Relationship"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Column"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Field"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Key"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeTypeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ColumnType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeTypeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#FieldType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedAttributeTypeOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ValueType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValuePair"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Row"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isGeneralizedEntityOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Table"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isInstanceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#represents"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#represents"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#restricts"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasForeignIdentifier"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignIdentifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasForeignKey"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignKey"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGeneralizedDataModelOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Database"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGeneralizedDataModelOccurenceOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#KeyValueServerInstance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGeneralizedForignIdentifierOf"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#ForeignKey"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttributeName"/>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntityName"/>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationshipName"/>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttributeName"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Attribute"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntityName"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasIPAddress"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasPassword"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasPort"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationshipName"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#Relationship"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasUsername"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModelOccurence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isBasedOnApproach"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#latestVersion"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#officalWebSite"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DatabaseManagementSystem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsCollection"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DocumentDataModel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsSQL"/>
+        <Class IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#RelationalDataModel"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasAttributeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasEntityName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasIPAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasPassword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasPort"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasRelationshipName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#hasUsername"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#isBasedOnApproach"/>
+        <DataOneOf>
+            <Literal>Non-relational Model</Literal>
+            <Literal>Ontology Model</Literal>
+            <Literal>Relational Model</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#latestVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#officalWebSite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsCollection"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#supportsSQL"/>
+        <DataOneOf>
+            <Literal>PL/SQL</Literal>
+            <Literal>T-SQL</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/nail.diker/ontologies/2016/2/untitled-ontology-4#DataModel</IRI>
+        <Literal xml:lang="tr">Veri modellerini ( ilişkisel model, ilişkisel olmayan model, ontoloji )  takip ederek geliştirmek veri yönetim sistem tiplerini temsil etmektedir. Doküman, sütun-tabanlı, abahtar-değer,  çizge ve vilişkisel veritabanları örnekleridir.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
